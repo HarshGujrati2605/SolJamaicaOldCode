@@ -8,7 +8,7 @@ public class ContactcusPage {
 	
 	By contactustab = By.xpath("//ul//a[text() = 'Contact Us' and not(contains(@class , 'right'))]");
 	By contactusheader = By.cssSelector(".title-wrap h2");
-	By firstname = By.xpath("//input[@name = 'name']");
+	By firstname = By.xpath("//input[@name = 'firstName']");
 	By lastname = By.xpath("//input[@name = 'lastName']");
 	By email = By.xpath("//input[@name = 'email']");
 	By phonenumberdropdown = By.cssSelector(".prod-listdown.country-code-dropdown");
