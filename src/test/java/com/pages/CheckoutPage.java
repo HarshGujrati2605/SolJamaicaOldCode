@@ -21,16 +21,22 @@ public class CheckoutPage {
 	By orderconfirmationmessage = By.xpath("//h2[text() = 'Order Placed']");
 	By dashboardbuton = By.xpath("//a[text() = 'Go To Dashboard']");
 	By orderid = By.cssSelector("#orderValueId");
-	By sollogo = By.cssSelector(".logo-wrap a");
+	By sollogo = By.xpath("//div[@class = 'logo-wrap']//img[@title = 'SOL Petroleum']");
 
 	public void iContinueWithShippingAndBilling() throws InterruptedException {
-		CommonActions.iClickElementByLocator(continuebillinginfo, "Continue billing info");
-		Thread.sleep(1000);
-		CommonActions.iScrollToTheElementByLocator(continueshippingbutton, "Continue shipping button");
-		Thread.sleep(1000);
 		try {
-			CommonActions.iClickElementByLocator(continueshippingbutton, "Continue shiiping info");
+			CommonActions.iClickElementByLocator(continuebillinginfo, "Continue billing info");
+			Thread.sleep(1000);
+			CommonActions.iScrollToTheElementByLocator(continueshippingbutton, "Continue shipping button");
+			Thread.sleep(1000);
+			try {
+				CommonActions.iClickElementByLocator(continueshippingbutton, "Continue shiiping info");
+			} catch (Exception e) {
+				CommonActions.iClickJSEByLocator(continueshippingbutton, "Continue shiiping info");
+
+			}
 		} catch (Exception e) {
+
 			CommonActions.iClickJSEByLocator(continueshippingbutton, "Continue shiiping info");
 
 		}
@@ -74,7 +80,11 @@ public class CheckoutPage {
 	}
 
 	public void iClickSolLogo() throws InterruptedException {
-		CommonActions.iClickElementByLocator(sollogo, "Sol logo");
+		try {
+			CommonActions.iClickElementByLocator(sollogo, "Sol logo");
+		} catch (Exception e) {
+			CommonActions.iClickJSEByLocator(sollogo, "Sol logo");
+		}
 		new HomePage().iClickHome();
 	}
 

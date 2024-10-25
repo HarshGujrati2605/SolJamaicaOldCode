@@ -190,45 +190,45 @@ public class CommonActions extends GlobalVariable {
 	}
 
 	public static void highlightElementRed(WebElement element, String name) {
-		try {
-
-			if (element.isDisplayed()) {
-				JavascriptExecutor js = (JavascriptExecutor) driver;
-				js.executeScript("arguments[0].setAttribute('style', 'border: 2px solid red;');", element);
-				iLogMessage("Highlighted the " + name);
-
-			} else {
-				JavascriptExecutor js = (JavascriptExecutor) driver;
-				js.executeScript("arguments[0].scrollIntoView(true);", element);
-
-				js.executeScript("arguments[0].setAttribute('style', 'border: 2px solid red;');", element);
-				iLogMessage("Highlighted the " + name);
-			}
-
-		} catch (Exception e) {
-			iLogErrorMessage("element caanot be located");
-
-		}
+//		try {
+//
+//			if (element.isDisplayed()) {
+//				JavascriptExecutor js = (JavascriptExecutor) driver;
+//				js.executeScript("arguments[0].setAttribute('style', 'border: 2px solid red;');", element);
+//				iLogMessage("Highlighted the " + name);
+//
+//			} else {
+//				JavascriptExecutor js = (JavascriptExecutor) driver;
+//				js.executeScript("arguments[0].scrollIntoView(true);", element);
+//
+//				js.executeScript("arguments[0].setAttribute('style', 'border: 2px solid red;');", element);
+//				iLogMessage("Highlighted the " + name);
+//			}
+//
+//		} catch (Exception e) {
+//			iLogErrorMessage("element caanot be located");
+//
+//		}
 	}
 
 	public static void highlightElementGreen(WebElement element, String name) {
-		try {
-			if (element.isDisplayed()) {
-				JavascriptExecutor js = (JavascriptExecutor) driver;
-				js.executeScript("arguments[0].setAttribute('style', 'border: 2px solid green;');", element);
-				iLogMessage("Highlighted the " + name);
-
-			} else {
-				JavascriptExecutor js = (JavascriptExecutor) driver;
-				js.executeScript("arguments[0].scrollIntoView(true);", element);
-				Thread.sleep(2000);
-				js.executeScript("arguments[0].setAttribute('style', 'border: 2px solid green;');", element);
-				iLogMessage("Highlighted the " + name);
-			}
-
-		} catch (Exception e) {
-			iLogErrorMessage("element caanot be located");
-		}
+//		try {
+//			if (element.isDisplayed()) {
+//				JavascriptExecutor js = (JavascriptExecutor) driver;
+//				js.executeScript("arguments[0].setAttribute('style', 'border: 2px solid green;');", element);
+//				iLogMessage("Highlighted the " + name);
+//
+//			} else {
+//				JavascriptExecutor js = (JavascriptExecutor) driver;
+//				js.executeScript("arguments[0].scrollIntoView(true);", element);
+//				Thread.sleep(2000);
+//				js.executeScript("arguments[0].setAttribute('style', 'border: 2px solid green;');", element);
+//				iLogMessage("Highlighted the " + name);
+//			}
+//
+//		} catch (Exception e) {
+//			iLogErrorMessage("element caanot be located");
+//		}
 	}
 
 	public static void iScrollToTheElementByLocator(By loc, String nameofelement) {

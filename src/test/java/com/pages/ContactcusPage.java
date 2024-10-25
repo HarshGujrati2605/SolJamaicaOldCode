@@ -47,6 +47,7 @@ public class ContactcusPage {
     	CommonActions.iScrollDownCoordinates(0, 100);
     	Thread.sleep(1000);
     	CommonActions.iScrollDownCoordinates(0, 100);
+    	Thread.sleep(1000);
     	CommonActions.clickOnElementAndType(email, "gurpreet.singh22@yopmail.com", "Email field");
     	CommonActions.iClickElementByLocator(phonenumberdropdown, "Phone number dropdown");
     	Thread.sleep(1000);
