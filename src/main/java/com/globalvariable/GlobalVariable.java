@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class GlobalVariable {
-	public static WebDriver driver ;
+	public static WebDriver driver;
 	public static String product_title;
 	public static String orderid;
 	public static String updated_firstname;
@@ -22,5 +22,6 @@ public class GlobalVariable {
 	public static String newuser_phone;
 	public static String companyNamechild;
 	public static String reg_emailid;
-    }
-
+	public static String profile_first_name;
+	public static String updated_address;
+}

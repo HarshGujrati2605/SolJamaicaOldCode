@@ -28,5 +28,10 @@ public class HomePageSteps {
          
 		new HomePage().iSelectProductsCategoryFromProductTab(option);
 	}
+	
+	@And("I close browser")
+	public void closeBrowser() {
+		new HomePage().closeBrowser();
+	}
 
 }

@@ -635,6 +635,17 @@ public class CommonActions extends GlobalVariable {
 		return "Kulkarni" + sb.toString();
 
 	}
+	
+	public static String randomStringGenerator() {
+		String chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz";
+		Random rand = new Random();
+		StringBuilder sb = new StringBuilder();
+		for (int i = 0; i < 4; i++) {
+			sb.append(chars.charAt(rand.nextInt(chars.length())));
+		}
+		return  sb.toString();
+
+	}
 
 	public static String randomEmailIdGenerator() {
 		String chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz";
@@ -644,6 +655,17 @@ public class CommonActions extends GlobalVariable {
 			sb.append(chars.charAt(rand.nextInt(chars.length())));
 		}
 		return "Pune" + sb.toString() + "@mailinator.com";
+
+	}
+	
+	public static String randomEmailIdGeneratorFixPrefix() {
+		String chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz";
+		Random rand = new Random();
+		StringBuilder sb = new StringBuilder();
+		for (int i = 0; i < 2; i++) {
+			sb.append(chars.charAt(rand.nextInt(chars.length())));
+		}
+		return "Testdemoone" + sb.toString() + "@mailinator.com";
 
 	}
 
@@ -714,6 +736,38 @@ public class CommonActions extends GlobalVariable {
 		}
 		return "TestConsulting" + sb.toString();
 
+	}
+	
+	public static String randomProfileNameGenerator() {
+		String chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz";
+		Random rand = new Random();
+		StringBuilder sb = new StringBuilder();
+		for (int i = 0; i <4 ; i++) {
+			sb.append(chars.charAt(rand.nextInt(chars.length())));
+		}
+		return "Surya" + sb.toString();
+
+	}
+	
+	public static String randomProfileAdressGenerator() {
+		String chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz";
+		Random rand = new Random();
+		StringBuilder sb = new StringBuilder();
+		for (int i = 0; i <4 ; i++) {
+			sb.append(chars.charAt(rand.nextInt(chars.length())));
+		}
+		return "East Ross, Montana - 66554, Guernsey " + sb.toString();
+
+	}
+	
+	public static String randomStateSelector() {
+		final String[] country_states = {"Brokopondo", "Commewijne", "Coronie", "Marowijne" , "Nickerie" , "Paramaribo" , "Saramacca" , "Sipaliwini" , "Wanica"};
+		Random random = new Random();
+		int index = random.nextInt(country_states.length);
+		String random_state = country_states[index];
+		CommonActions.iLogMessage("********************************Country choosen randomly is : "  + random_state);
+		return random_state;
+		
 	}
 
 }

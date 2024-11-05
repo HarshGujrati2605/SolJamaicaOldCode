@@ -20,7 +20,7 @@ public class ManageUsersPage {
 	By address2 = By.xpath("//input[contains(@name , 'address2')]");
 	By address3 = By.xpath("//input[contains(@name , 'address3')]");
 	By zipcodefield = By.xpath("//input[contains(@name , 'zipcode')]");
-	By adduserbtn = By.xpath("//button[contains(@id , 'ManageUsersPortlet_INSTANCE_ikez_submit')]");
+	By adduserbtn = By.xpath("//button[contains(@id , 'submit')]");
 	By searchforuserfield = By.xpath("//input[@placeholder = 'Search For User']");
 	By usernamesearchfieldcolumn = By.xpath("//td[contains(@class , 'name')]");
 	By addnewchildcompany = By.xpath("//p[text() = 'Add New Child Company']");
@@ -65,6 +65,7 @@ public class ManageUsersPage {
 	}
 	
 	public void addChildCompany() throws Exception {
+		Thread.sleep(1500);
 		CommonActions.iClickElementByLocator(addnewchildcompany, "Add new childcompany");
 		GlobalVariable.companyNamechild = CommonActions.randomCOmpanyGenerator();
 		CommonActions.clickOnElementAndType(childcompanyname, GlobalVariable.companyNamechild, "company");

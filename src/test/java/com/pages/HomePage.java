@@ -68,5 +68,9 @@ public class HomePage extends GlobalVariable {
 		
 		
 	}
+	
+	public void closeBrowser() {
+		driver.quit();
+	}
 
 }

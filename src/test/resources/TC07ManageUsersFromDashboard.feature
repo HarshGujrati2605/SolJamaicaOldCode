@@ -2,8 +2,8 @@
 Feature: PWishlist from Dashboard Scenarios
 
   Scenario: Users are required to log in to the SOL website in order to access the dashboard module and review the order status on the dashboard page.
-    Given I enter username as "gurpreet.singh22@yopmail.com"
-    And I enter password as "Test@123456789"
+    Given I enter username as "surya.uat@yopmail.com"
+    And I enter password as "Test@12345"
     Then I login
 
   @updateshippingaddress
@@ -24,8 +24,9 @@ Feature: PWishlist from Dashboard Scenarios
     Given I add new child company
     Then I select the child company from dropdown
     And I logout
+    And I close browser
 
     Examples: 
       | options      | rolename     |language|
-      | Manage Users | Finance User |English|
+      | Manage Users | Finance User |English |
       

@@ -19,7 +19,7 @@ public class LoginPage extends GlobalVariable {
 	By Password = By.xpath("//input[contains(@name , 'LoginPortlet_password')]");
 	By Loginbutton = By.xpath("//button[@type = 'submit']//span[text() = 'Login']");
 	By profileIcon = By.xpath("//a[@id = 'dropdownMenuLink']/div");
-	By loginLink = By.xpath("//a[text() = 'Login/']");
+	By loginLink = By.xpath("//a[text() = 'Login /']");
 	public static By residentialbutton = By.xpath("//button[text() = 'Residential']");
 
 	public void enterUsername(String username) throws InterruptedException {

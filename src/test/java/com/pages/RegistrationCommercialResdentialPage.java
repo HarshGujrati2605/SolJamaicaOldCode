@@ -22,9 +22,9 @@ public class RegistrationCommercialResdentialPage {
 	By citydropdown = By.xpath("//select[contains(@name ,'city')]");
 	By captcha = By.cssSelector(".captcha");
 	By captchatext = By.xpath("//input[contains(@name , 'captchaText')]");
-	By signup = By.xpath("//button[@type = 'submit' and contains(@id , 'submit')] ");
+	By signup = By.xpath("//button[@type = 'button' and contains(@id , 'submit')] ");
 	By profileIcon = By.xpath("//a[@id = 'dropdownMenuLink']/div");
-	By loginLink = By.xpath("//a[text() = 'Login/']");
+	By loginLink = By.xpath("//a[text() = 'Login /']");
 	By registerlink = By.xpath("//a[text() = 'Register']");
 	By phonedrop = By.xpath("//span[contains(@title, 'phone-number-code')]");
 	By celldropdown = By.xpath("//span[contains(@title, 'cell-number-code')]");
@@ -55,9 +55,9 @@ public class RegistrationCommercialResdentialPage {
 	}
 
 	public void iFillUserDetailsForm() throws Exception {
-		if (usertype.contains("Commercial")) {
+		//if (usertype.contains("Commercial")) {
 			CommonActions.clickOnElementAndType(comapanyname, CommonActions.randomCOmpanyGenerator(), "Company name");
-		}
+		//}
 		CommonActions.clickOnElementAndType(firstname, "Nilesh" + CommonActions.randomString(4), "Firstname");
 		CommonActions.clickOnElementAndType(lastname, "Sharma", "Last name");
 		GlobalVariable.reg_emailid = CommonActions.randomEmailIdGeneratorTest();
@@ -75,9 +75,9 @@ public class RegistrationCommercialResdentialPage {
 		CommonActions.clickOnElementAndType(address1, "Test Address", "Test address");
 		CommonActions.clickOnElementAndType(address2, "Address Two", "Test address");
 		CommonActions.clickOnElementAndType(address3, "Address Three", "Test address");
-		CommonActions.selectOptionFromDropdownclass(countrydropdown, "Jamaica");
-		CommonActions.selectOptionFromDropdownclass(statedropdown, "Surrey");
-		CommonActions.selectOptionFromDropdownclass(citydropdown, "Portland");
+		CommonActions.selectOptionFromDropdownclass(countrydropdown, "Suriname");
+		CommonActions.selectOptionFromDropdownclass(statedropdown, CommonActions.randomStateSelector());
+		//CommonActions.selectOptionFromDropdownclass(citydropdown, "Portland");
 		CommonActions.clickOnElementAndType(postalcode, "452001", "postal code");
 
 	}

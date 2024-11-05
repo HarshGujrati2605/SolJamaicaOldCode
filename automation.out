@@ -1,184 +1,60 @@
-2024-10-25 21:10:809 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 21:10:913 ERROR CommonActions:182 - Residentail option is not able to select..
-2024-10-25 21:10:922 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 21:10:969 INFO  CommonActions:177 - i Click on the element Profile Icon
-2024-10-25 21:10:970 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 21:10:262 INFO  CommonActions:177 - i Click on the element Login link
-2024-10-25 21:10:270 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 21:10:409 INFO  CommonActions:177 - i Click on the element Username field
-2024-10-25 21:10:511 INFO  CommonActions:177 - Clicked onUsername field
-2024-10-25 21:10:512 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 21:10:561 INFO  CommonActions:177 - i Click on the element Password field
-2024-10-25 21:10:624 INFO  CommonActions:177 - Clicked onPassword field
-2024-10-25 21:10:626 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 21:10:699 INFO  CommonActions:177 - i Click on the element Click login button
-2024-10-25 21:10:701 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 21:10:735 INFO  CommonActions:177 - pop up is not present after login
-2024-10-25 21:10:737 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 21:10:757 INFO  CommonActions:177 - Element USer profile picture is present.
-2024-10-25 21:10:759 INFO  CommonActions:177 - Users are required to log in to the SOL website in order to access the dashboard module and review the order status on the dashboard page. is passed
-2024-10-25 21:10:776 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 21:10:266 INFO  CommonActions:177 - i Click on the element Home menu
-2024-10-25 21:10:267 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 21:10:174 INFO  CommonActions:177 - i Click on the element Industry category is selected
-2024-10-25 21:10:178 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 21:10:244 INFO  CommonActions:177 - i Click on the element Selcting filter range from 100 to 199.99
-2024-10-25 21:10:245 INFO  CommonActions:177 - Getting the text fromProduct title
-2024-10-25 21:10:245 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 21:10:270 INFO  CommonActions:177 - Adding Bunker 'C' / HFO in the cart
-2024-10-25 21:10:275 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 21:10:315 INFO  CommonActions:177 - i Click on the element Add to cart button of the first visible product
-2024-10-25 21:10:321 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 21:10:366 INFO  CommonActions:177 - i Click on the element Cart icon click
-2024-10-25 21:10:370 INFO  CommonActions:177 - Waiting for elements to be visible
-2024-10-25 21:10:395 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 21:10:414 INFO  CommonActions:177 - ********************    Element actual text is Bunker 'C' / HFO***************
-2024-10-25 21:10:414 INFO  CommonActions:177 - ****************** ELement Expected text is Bunker 'C' / HFO**********************
-2024-10-25 21:10:433 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 21:10:715 INFO  CommonActions:177 - i Click on the element Checkout button
-2024-10-25 21:10:717 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 21:10:813 INFO  CommonActions:177 - i Click on the element Continue billing info
-2024-10-25 21:10:818 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 21:10:837 INFO  CommonActions:177 - scrolled till the Continue shipping button
-2024-10-25 21:10:843 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 21:10:922 INFO  CommonActions:177 - i Click on the element Continue shiiping info
-2024-10-25 21:10:930 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 21:10:36 INFO  CommonActions:177 - i Click on the element Preferred date dropdown
-2024-10-25 21:10:43 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 21:10:138 INFO  CommonActions:177 - i Click on the element 26
-2024-10-25 21:10:138 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 21:10:210 INFO  CommonActions:177 - i Click on the element Preferred time
-2024-10-25 21:10:216 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 21:10:300 INFO  CommonActions:177 - i Click on the element time range
-2024-10-25 21:10:301 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 21:10:356 INFO  CommonActions:177 - i Click on the element Delivery instructions
-2024-10-25 21:10:425 INFO  CommonActions:177 - Clicked onDelivery instructions
-2024-10-25 21:10:443 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 21:10:478 INFO  CommonActions:177 - i Click on the element Save button
-2024-10-25 21:10:480 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 21:10:519 INFO  CommonActions:177 - ********************    Element actual text is Bunker 'C' / HFO***************
-2024-10-25 21:10:520 INFO  CommonActions:177 - ****************** ELement Expected text is Bunker 'C' / HFO**********************
-2024-10-25 21:10:526 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 21:10:982 INFO  CommonActions:177 - i Click on the element Sol logo
-2024-10-25 21:10:991 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 21:10:277 INFO  CommonActions:177 - i Click on the element Home menu
-2024-10-25 21:10:284 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 21:10:328 INFO  CommonActions:177 - i Click on the element Cart icon click
-2024-10-25 21:10:334 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 21:10:408 INFO  CommonActions:177 - i Click on the element Deleting the product in the cart
-2024-10-25 21:10:414 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 21:10:626 INFO  CommonActions:177 - i Click on the element Closing the cart
-2024-10-25 21:10:627 INFO  CommonActions:177 - Shop the Industry products from the homepage and validate product added in the cart is passed
-2024-10-25 21:10:641 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 21:10:965 INFO  CommonActions:177 - i Click on the element Home menu
-2024-10-25 21:10:966 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 21:10:05 INFO  CommonActions:177 - i Click on the element Road Transport category is selected
-2024-10-25 21:10:06 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 21:10:76 INFO  CommonActions:177 - i Click on the element Selcting filter range from 100 to 199.99
-2024-10-25 21:10:77 INFO  CommonActions:177 - Getting the text fromProduct title
-2024-10-25 21:10:77 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 21:10:100 INFO  CommonActions:177 - Adding Premium Gasoline in the cart
-2024-10-25 21:10:105 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 21:10:143 INFO  CommonActions:177 - i Click on the element Add to cart button of the first visible product
-2024-10-25 21:10:148 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 21:10:188 INFO  CommonActions:177 - i Click on the element Cart icon click
-2024-10-25 21:10:189 INFO  CommonActions:177 - Waiting for elements to be visible
-2024-10-25 21:10:213 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 21:10:231 INFO  CommonActions:177 - ********************    Element actual text is Premium Gasoline***************
-2024-10-25 21:10:231 INFO  CommonActions:177 - ****************** ELement Expected text is Premium Gasoline**********************
-2024-10-25 21:10:245 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 21:10:893 INFO  CommonActions:177 - i Click on the element Checkout button
-2024-10-25 21:10:894 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 21:10:983 INFO  CommonActions:177 - i Click on the element Continue billing info
-2024-10-25 21:10:989 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 21:10:16 INFO  CommonActions:177 - scrolled till the Continue shipping button
-2024-10-25 21:10:21 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 21:10:103 INFO  CommonActions:177 - i Click on the element Continue shiiping info
-2024-10-25 21:10:112 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 21:10:183 INFO  CommonActions:177 - i Click on the element Preferred date dropdown
-2024-10-25 21:10:189 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 21:10:273 INFO  CommonActions:177 - i Click on the element 26
-2024-10-25 21:10:273 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 21:10:342 INFO  CommonActions:177 - i Click on the element Preferred time
-2024-10-25 21:10:348 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 21:10:432 INFO  CommonActions:177 - i Click on the element time range
-2024-10-25 21:10:432 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 21:10:487 INFO  CommonActions:177 - i Click on the element Delivery instructions
-2024-10-25 22:10:564 INFO  CommonActions:177 - Clicked onDelivery instructions
-2024-10-25 22:10:583 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 22:10:620 INFO  CommonActions:177 - i Click on the element Save button
-2024-10-25 22:10:621 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 22:10:647 INFO  CommonActions:177 - ********************    Element actual text is Premium Gasoline***************
-2024-10-25 22:10:647 INFO  CommonActions:177 - ****************** ELement Expected text is Premium Gasoline**********************
-2024-10-25 22:10:654 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 22:10:292 INFO  CommonActions:177 - i Click on the element Sol logo
-2024-10-25 22:10:298 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 22:10:755 INFO  CommonActions:177 - i Click on the element Home menu
-2024-10-25 22:10:761 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 22:10:803 INFO  CommonActions:177 - i Click on the element Cart icon click
-2024-10-25 22:10:808 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 22:10:881 INFO  CommonActions:177 - i Click on the element Deleting the product in the cart
-2024-10-25 22:10:886 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 22:10:663 INFO  CommonActions:177 - i Click on the element Closing the cart
-2024-10-25 22:10:669 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 22:10:748 INFO  CommonActions:177 - i Click on the element User profile picture
-2024-10-25 22:10:749 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 22:10:789 INFO  CommonActions:177 - i Click on the element Log out
-2024-10-25 22:10:790 INFO  CommonActions:177 - Shop the Road transport products from the homepage and validate product added in the cart is passed
-2024-10-25 22:10:802 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 22:10:827 INFO  CommonActions:177 - i Click on the element Profile Icon
-2024-10-25 22:10:827 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 22:10:506 INFO  CommonActions:177 - i Click on the element Login link
-2024-10-25 22:10:511 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 22:10:585 INFO  CommonActions:177 - i Click on the element Username field
-2024-10-25 22:10:660 INFO  CommonActions:177 - Clicked onUsername field
-2024-10-25 22:10:660 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 22:10:708 INFO  CommonActions:177 - i Click on the element Password field
-2024-10-25 22:10:772 INFO  CommonActions:177 - Clicked onPassword field
-2024-10-25 22:10:772 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 22:10:840 INFO  CommonActions:177 - i Click on the element Click login button
-2024-10-25 22:10:841 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 22:10:908 INFO  CommonActions:177 - pop up is not present after login
-2024-10-25 22:10:910 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 22:10:934 INFO  CommonActions:177 - Element USer profile picture is present.
-2024-10-25 22:10:935 INFO  CommonActions:177 - Users are required to log in to the SOL website. is passed
-2024-10-25 22:10:943 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 22:10:665 INFO  CommonActions:177 - i Click on the element Contact Us Tab
-2024-10-25 22:10:667 INFO  CommonActions:177 - Waiting for element to be Present
-2024-10-25 22:10:678 INFO  CommonActions:177 - Contact Us header is displayed....
-2024-10-25 22:10:679 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 22:10:738 INFO  CommonActions:177 - i Click on the element Sales Query is selected
-2024-10-25 22:10:738 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 22:10:812 INFO  CommonActions:177 - i Click on the element title dropdown
-2024-10-25 22:10:818 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 22:10:891 INFO  CommonActions:177 - i Click on the element Choosing Mr. as title
-2024-10-25 22:10:911 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 22:10:959 INFO  CommonActions:177 - i Click on the element First name
-2024-10-25 22:10:25 INFO  CommonActions:177 - Clicked onFirst name
-2024-10-25 22:10:25 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 22:10:77 INFO  CommonActions:177 - i Click on the element Last name
-2024-10-25 22:10:136 INFO  CommonActions:177 - Clicked onLast name
-2024-10-25 22:10:153 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 22:10:218 INFO  CommonActions:177 - i Click on the element Email field
-2024-10-25 22:10:287 INFO  CommonActions:177 - Clicked onEmail field
-2024-10-25 22:10:287 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 22:10:344 INFO  CommonActions:177 - i Click on the element Phone number dropdown
-2024-10-25 22:10:362 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 22:10:429 INFO  CommonActions:177 - i Click on the element +33
-2024-10-25 22:10:445 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 22:10:502 INFO  CommonActions:177 - i Click on the element Mobile number
-2024-10-25 22:10:564 INFO  CommonActions:177 - Clicked onMobile number
-2024-10-25 22:10:564 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 22:10:625 INFO  CommonActions:177 - i Click on the element Message
-2024-10-25 22:10:695 INFO  CommonActions:177 - Clicked onMessage
-2024-10-25 22:10:696 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 22:10:713 INFO  CommonActions:177 - scrolled till the Message field
-2024-10-25 22:10:720 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 22:10:85 INFO  CommonActions:177 - i Click on the element Submit button
-2024-10-25 22:10:87 INFO  CommonActions:177 - Waiting for element to be Present
-2024-10-25 22:10:104 INFO  CommonActions:177 - Success message is displayed....
-2024-10-25 22:10:111 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 22:10:185 INFO  CommonActions:177 - i Click on the element User profile picture
-2024-10-25 22:10:186 INFO  CommonActions:177 - Waiting for element to be visible
-2024-10-25 22:10:901 INFO  CommonActions:177 - i Click on the element Log out
-2024-10-25 22:10:902 INFO  CommonActions:177 - Query can be submited from Contact Us page is passed
+2024-11-05 16:11:911 INFO  CommonActions:177 - Waiting for element to be visible
+2024-11-05 16:11:08 ERROR CommonActions:182 - Residentail option is not able to select..
+2024-11-05 16:11:14 INFO  CommonActions:177 - Waiting for element to be visible
+2024-11-05 16:11:74 INFO  CommonActions:177 - i Click on the element Profile Icon
+2024-11-05 16:11:75 INFO  CommonActions:177 - Waiting for element to be visible
+2024-11-05 16:11:370 INFO  CommonActions:177 - i Click on the element Login link
+2024-11-05 16:11:382 INFO  CommonActions:177 - Waiting for element to be visible
+2024-11-05 16:11:849 INFO  CommonActions:177 - i Click on the element register link
+2024-11-05 16:11:852 INFO  CommonActions:177 - Waiting for element to be visible
+2024-11-05 16:11:959 INFO  CommonActions:177 - Waiting for element to be visible
+2024-11-05 16:11:80 INFO  CommonActions:177 - Waiting for element to be visible
+2024-11-05 16:11:212 INFO  CommonActions:177 - i Click on the element Company name
+2024-11-05 16:11:348 INFO  CommonActions:177 - Clicked onCompany name
+2024-11-05 16:11:349 INFO  CommonActions:177 - Waiting for element to be visible
+2024-11-05 16:11:448 INFO  CommonActions:177 - i Click on the element Firstname
+2024-11-05 16:11:567 INFO  CommonActions:177 - Clicked onFirstname
+2024-11-05 16:11:568 INFO  CommonActions:177 - Waiting for element to be visible
+2024-11-05 16:11:668 INFO  CommonActions:177 - i Click on the element Last name
+2024-11-05 16:11:776 INFO  CommonActions:177 - Clicked onLast name
+2024-11-05 16:11:776 INFO  CommonActions:177 - Waiting for element to be visible
+2024-11-05 16:11:866 INFO  CommonActions:177 - i Click on the element email
+2024-11-05 16:11:15 INFO  CommonActions:177 - Clicked onemail
+2024-11-05 16:11:16 INFO  CommonActions:177 - Waiting for element to be visible
+2024-11-05 16:11:96 INFO  CommonActions:177 - i Click on the element phone dropdwon
+2024-11-05 16:11:101 INFO  CommonActions:177 - Waiting for element to be visible
+2024-11-05 16:11:193 INFO  CommonActions:177 - i Click on the element +33
+2024-11-05 16:11:196 INFO  CommonActions:177 - Waiting for element to be visible
+2024-11-05 16:11:295 INFO  CommonActions:177 - i Click on the element Phone number
+2024-11-05 16:11:408 INFO  CommonActions:177 - Clicked onPhone number
+2024-11-05 16:11:408 INFO  CommonActions:177 - Waiting for element to be visible
+2024-11-05 16:11:484 INFO  CommonActions:177 - i Click on the element Cell dropdwon
+2024-11-05 16:11:491 INFO  CommonActions:177 - Waiting for element to be visible
+2024-11-05 16:11:579 INFO  CommonActions:177 - i Click on the element +33
+2024-11-05 16:11:593 INFO  CommonActions:177 - Waiting for element to be visible
+2024-11-05 16:11:697 INFO  CommonActions:177 - i Click on the element Cell number
+2024-11-05 16:11:824 INFO  CommonActions:177 - Clicked onCell number
+2024-11-05 16:11:824 INFO  CommonActions:177 - Waiting for element to be visible
+2024-11-05 16:11:920 INFO  CommonActions:177 - i Click on the element Test address
+2024-11-05 16:11:59 INFO  CommonActions:177 - Clicked onTest address
+2024-11-05 16:11:60 INFO  CommonActions:177 - Waiting for element to be visible
+2024-11-05 16:11:157 INFO  CommonActions:177 - i Click on the element Test address
+2024-11-05 16:11:282 INFO  CommonActions:177 - Clicked onTest address
+2024-11-05 16:11:282 INFO  CommonActions:177 - Waiting for element to be visible
+2024-11-05 16:11:373 INFO  CommonActions:177 - i Click on the element Test address
+2024-11-05 16:11:525 INFO  CommonActions:177 - Clicked onTest address
+2024-11-05 16:11:525 INFO  CommonActions:177 - Waiting for element to be visible
+2024-11-05 16:11:605 INFO  CommonActions:177 - ********************************Country choosen randomly is : Commewijne
+2024-11-05 16:11:605 INFO  CommonActions:177 - Waiting for element to be visible
+2024-11-05 16:11:81 INFO  CommonActions:177 - Waiting for element to be visible
+2024-11-05 16:11:178 INFO  CommonActions:177 - i Click on the element postal code
+2024-11-05 16:11:278 INFO  CommonActions:177 - Clicked onpostal code
+2024-11-05 16:11:281 INFO  CommonActions:177 - Waiting for element to be visible
+2024-11-05 16:11:310 INFO  CommonActions:177 - scrolled till the SIgnup Button
+2024-11-05 16:11:317 INFO  CommonActions:177 - Waiting for element to be visible
+2024-11-05 16:11:378 INFO  CommonActions:177 - i Click on the element Sign up button
+2024-11-05 16:11:431 INFO  CommonActions:177 - Waiting for element to be Present
+2024-11-05 16:11:450 INFO  CommonActions:177 - registration success message is displayed....
+2024-11-05 16:11:451 INFO  CommonActions:177 - Waiting for element to be visible
+2024-11-05 16:11:257 INFO  CommonActions:177 - i Click on the element Go back home button
+2024-11-05 16:11:259 INFO  CommonActions:177 - User should abel to registered via Commercial flow is passed

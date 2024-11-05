@@ -2,8 +2,8 @@
 Feature: Profile page scenarios
 
   Scenario: Users are required to log in to the SOL website in order to access the dashboard module and review the order status on the dashboard page.
-    Given I enter username as "gurpreet.singh22@yopmail.com"
-    And I enter password as "Test@123456789"
+    Given I enter username as "surya.uat@yopmail.com"
+    And I enter password as "Test@12345"
     Then I login
 
   @updateshippingaddress
@@ -16,8 +16,8 @@ Feature: Profile page scenarios
 
     Examples: 
       | options | statename |
-      | Profile | Surrey    |
-      
+      | Profile | Suriname  |
+
   @addnewshippingaddress
   Scenario Outline: The user should be able to add a new shipping address in the shipping address section of the SOL website.
     Given I am on homepage and click dashboard
@@ -26,11 +26,8 @@ Feature: Profile page scenarios
     And I add the new address of the person with state "<statename>"
     Then I validate the new added address
     And I logout
+    And I close browser
 
     Examples: 
       | options | statename |
-      | Profile | Surrey    |
-      
-
-      
-  
+      | Profile | Suriname  |
